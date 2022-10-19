@@ -112,6 +112,3 @@ hm + geom_tile(aes(x = Var1, y = Var2, fill = value)) + scale_fill_gradient2(low
 hm + geom_tile(aes(x = Var1, y = Var2, fill = value)) + scale_fill_gradient2(low = '#1687ee', high = '#d27C1c')
 # Change x and y labels
 hm + geom_tile(aes(x = Var1, y = Var2, fill = value)) + scale_fill_gradient2() + xlab('First Variable') + ylab('Second Variable')
-
-# Let's arrange these plots as we usually see in publications
-par(mfrow = c(2,2))
