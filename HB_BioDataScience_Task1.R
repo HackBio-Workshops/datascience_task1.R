@@ -5,11 +5,9 @@
 astrocyte_data <- read.csv(file.choose())
 astrocyte_data
 
+
 # Data Visualization in R
 
-# Bar plot
-barplot(c(mean(astrocyte_data$MFN1_1), mean(astrocyte_data$MFN1_2), mean(astrocyte_data$MFN1_4), mean(astrocyte_data$WT_1), mean(astrocyte_data$WT_3), mean(astrocyte_data$WT_4), mean(astrocyte_data$MFN1), mean(astrocyte_data$WT))
-        
 # Histogram
 hist(astrocyte_data$MFN1_1, col = "Sea green", main = "Distribution of MFN1_1 Gene", xlab = "Index")
         
